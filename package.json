@@ -27,5 +27,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-dev-utils": "^9.0.3",
+    "react-router-dom": "^5.0.1",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^4.3.2",
+    "superagent": "^5.1.0"
   }
 }
