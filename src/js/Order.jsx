@@ -161,7 +161,7 @@ export default class Order extends React.Component{
             returnMoney: -10,
         }
 		request
-			.get('http://localhost:4000/menu')
+			.get('https://cashier-app-back.herokuapp.com/menu')
 			.end((err, res) => {
 				var menus = res.body;
 				this.setState({ menus });
@@ -227,7 +227,7 @@ export default class Order extends React.Component{
         var deleteRecieptId = Number(yy + mm + dd + hh + mi);
         for (var i=0; i < this.state.purchaseItems.length; i++) {
             request
-            .post('http://localhost:4000/history')
+            .post('https://cashier-app-back.herokuapp.com/history')
             .type('form')
             .send({
                 receipt_id: deleteRecieptId,

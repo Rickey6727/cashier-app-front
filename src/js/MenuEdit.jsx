@@ -108,7 +108,7 @@ export default class MenuEdit extends React.Component{
     }
     selectMenu() {
 		request
-			.get('http://localhost:4000/menu')
+			.get('https://cashier-app-back.herokuapp.com/menu')
 			.end((err, res) => {
 				var menus = res.body;
 				this.setState({ menus });
@@ -116,7 +116,7 @@ export default class MenuEdit extends React.Component{
     }
     addMenu() {
 		request
-			.post('http://localhost:4000/edit/addMenu')
+			.post('https://cashier-app-back.herokuapp.com/edit/addMenu')
             .type('form')
             .send({
                 name: this.state.newMenuName,
@@ -129,7 +129,7 @@ export default class MenuEdit extends React.Component{
     }
     deleteMenu(targetId) {
 		request
-			.post('http://localhost:4000/edit/deleteMenu')
+			.post('https://cashier-app-back.herokuapp.com/edit/deleteMenu')
             .type('form')
             .send({
                 id: targetId,

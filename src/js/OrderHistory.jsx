@@ -87,7 +87,7 @@ export default class OrderHistory extends React.Component{
     }
     selectHistory() {
 		request
-			.get('http://localhost:4000/history')
+			.get('https://cashier-app-back.herokuapp.com/history')
 			.end((err, res) => {
 				var historys = res.body;
 				this.setState({ historys });
@@ -103,7 +103,7 @@ export default class OrderHistory extends React.Component{
     }
     deleteReceipt() {
         request
-        .post('http://localhost:4000/history/delete')
+        .post('https://cashier-app-back.herokuapp.com/history/delete')
         .type('form')
         .send({
             receipt_id: this.state.deleteReceiptId,

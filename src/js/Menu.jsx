@@ -53,7 +53,7 @@ export default class Menu extends React.Component{
 			menus: []
         }
 		request
-			.get('http://localhost:4000/menu')
+			.get('https://cashier-app-back.herokuapp.com/menu')
 			.end((err, res) => {
 				var menus = res.body;
 				this.setState({ menus });
