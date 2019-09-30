@@ -146,7 +146,7 @@ export default class OrderHistory extends React.Component{
                                 <TableBody>¥ {history.total_price} -</TableBody>
                                 <TableBody>¥ {history.deposit_price} -</TableBody>
                                 <TableBody>{history.create_date}</TableBody>
-                                <TableBody><InputNoStyle id={history.receipt_id} value={history.receipt_id} readOnly></InputNoStyle><a onClick={() => this.copyReceiptId(history.receipt_id)}><CopyImg src={CopyImage}></CopyImg></a></TableBody>
+                                <TableBody><InputNoStyle id={history.receipt_id} value={history.receipt_id} readOnly></InputNoStyle><button onClick={() => this.copyReceiptId(history.receipt_id)}><CopyImg src={CopyImage}></CopyImg></button></TableBody>
                             </TableBodyRow>
                         ))}
                     </tbody>
