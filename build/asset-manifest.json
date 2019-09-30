@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/cashier-app-front/static/js/main.abff5a5e.chunk.js",
+    "main.js.map": "/cashier-app-front/static/js/main.abff5a5e.chunk.js.map",
+    "runtime~main.js": "/cashier-app-front/static/js/runtime~main.b7c83652.js",
+    "runtime~main.js.map": "/cashier-app-front/static/js/runtime~main.b7c83652.js.map",
+    "static/js/2.9012732c.chunk.js": "/cashier-app-front/static/js/2.9012732c.chunk.js",
+    "static/js/2.9012732c.chunk.js.map": "/cashier-app-front/static/js/2.9012732c.chunk.js.map",
+    "index.html": "/cashier-app-front/index.html",
+    "precache-manifest.67c46fe38a94c4c0f09012fc942a2163.js": "/cashier-app-front/precache-manifest.67c46fe38a94c4c0f09012fc942a2163.js",
+    "service-worker.js": "/cashier-app-front/service-worker.js"
+  }
+}
