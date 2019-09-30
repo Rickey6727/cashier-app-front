@@ -60,8 +60,10 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://rickey6727.github.io/cashier-app-front/",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -78,6 +80,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.10.1",
     "react-dev-utils": "^9.0.3",
     "react-dom": "^16.10.1",
