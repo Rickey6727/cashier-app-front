@@ -1,1 +1,6 @@
-{}
+{
+  "projects": {
+    "staging": "cashier-app-front",
+    "default": "cashier-app-front"
+  }
+}
